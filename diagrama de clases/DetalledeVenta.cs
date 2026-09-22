@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace diagrama_de_clases
+namespace TiendaPOO
 {
-    internal class DetalledeVenta
+    public class DetalleVenta
     {
+        public Producto Producto { get; private set; }
+        public int Cantidad { get; private set; }
+        public double PrecioUnitario { get; private set; }
+
+        public DetalleVenta(Producto producto, int cantidad)
+        {
+            if (cantidad <= 0)
+            {
+                throw new ArgumentException(
+                    "La cantidad debe ser mayor que cero.");
+            }
+
+            Producto = producto;
+            Cantidad = cantidad;
+            PrecioUnitario = producto.Precio;
+        }
+
+        public double Subtotal()
+        {
+            return Cantidad * PrecioUnitario;
+        }
     }
 }
