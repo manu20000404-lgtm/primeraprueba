@@ -1,0 +1,5 @@
+C:\Users\laboratorio_sn\Documents\GitHub\primeraprueba\diagrama de clases\obj\Debug\diagrama de clases.csproj.AssemblyReference.cache
+C:\Users\laboratorio_sn\Documents\GitHub\primeraprueba\diagrama de clases\obj\Debug\diagrama_de_clases.Form1.resources
+C:\Users\laboratorio_sn\Documents\GitHub\primeraprueba\diagrama de clases\obj\Debug\diagrama_de_clases.Properties.Resources.resources
+C:\Users\laboratorio_sn\Documents\GitHub\primeraprueba\diagrama de clases\obj\Debug\diagrama de clases.csproj.GenerateResource.cache
+C:\Users\laboratorio_sn\Documents\GitHub\primeraprueba\diagrama de clases\obj\Debug\diagrama de clases.csproj.CoreCompileInputs.cache

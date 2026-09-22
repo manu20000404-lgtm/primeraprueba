@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace diagrama_de_clases
 {
-    internal class Tienda
+    internal class Producto_1
     {
-        public class Tienda
+        public class Producto
+
 {
     // Atributos privados
     private string nombre;
@@ -28,7 +29,7 @@ namespace diagrama_de_clases
     }
 
     // Constructor
-    public Tienda(string nombre, string direccion)
+    public Producto(string nombre, string direccion)
     {
         this.nombre = nombre;
         this.direccion = direccion;
@@ -40,19 +41,13 @@ namespace diagrama_de_clases
         // Lógica para registrar la venta
     }
 
-    public Inventario ConsultarInventario()
+    public TiendaPOO.Inventario ConsultarInventario()
     {
         // Lógica para retornar el inventario
-        return new Inventario();
+        return new TiendaPOO.Inventario();
     }
 }
                                            
                 }
             }
-        }
-        
-        
-            
-        }
-    }
-}
+ 
